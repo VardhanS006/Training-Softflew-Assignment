@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap form</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style type="text/css">
+      .carousel-inner .carousel-item .d-block{
+        height: 700px;
+      }
+      .img-fluid{
+        height: 200px;
+      }
+      .contact_us{
+        height: 600px;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("C:/Users/uvsin/OneDrive/Desktop/ll.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+      }
+      label{
+        color: white;
+        font-style: bold;
+        font-size: 16px;
+      }
+      .form-control{
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid white;
+        border-radius: 0px;
+      }
+      ::placeholder{
+        color:white !important;
+      }
+      .form-control:focus, .form-control:active{
+        background: transparent;
+        border: none;
+        color: white;
+      }
+      .aa{border-radius:50% ;
+      position: fixed;
+      right: 0px;
+      bottom: 0px;
+      height: 100px;
+      width: 100px;
+      background-color: green;
+      background: rgba(1, 1, 1, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="top">
+    <div class="container">
+      <a href="" class="navbar-brand">Softflew</a>
+      <button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target="#navbarcontent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarcontent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#abt" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#srvc" class="nav-link">Services</a>
+          </li>
+        </ul>
+      </div>  
+    </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="C:/Users/uvsin/OneDrive/Desktop/3-316-16-9-aspect-ratio-s-sfw-wallpaper-preview.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="C:/Users/uvsin/OneDrive/Desktop/img-sam.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="C:/Users/uvsin/OneDrive/Desktop/sam1.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container" id="abt">
+      <div class="row">
+        <span class="h1 text-center shadow shadow-md">About</span>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          
+            <img src="C:/Users/uvsin/OneDrive/Desktop/students.jpeg" class="img-fluid m-5">
+          
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12"></div>
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
+    </div>
+
+    
+  <div class="container-fluid" id="srvc">
+      
+        <div class="row">
+          <span class="h1 text-center mt-5 mb-3">Services</span>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="C:/Users/uvsin/OneDrive/Desktop/t1.jpeg" class="card-img-top img-fluid mt-2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="C:/Users/uvsin/OneDrive/Desktop/t2.jpeg" class="card-img-top img-fluid mt-2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="C:/Users/uvsin/OneDrive/Desktop/t3.jpeg" class="card-img-top img-fluid mt-2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="C:/Users/uvsin/OneDrive/Desktop/t4.jpeg" class="card-img-top img-fluid mt-2" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <section class="contact_us container-fluid">
+      <div class="row mt-5" style="align-items: center;">
+        <div class="col-lg-4 col-md-4 col-sm-12 m-5">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.3167909110084!2d80.96992417531705!3d26.89343947665867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39995754fadda861%3A0xbddcc736f4743c8f!2sSkyview%20Smart%20Solutions-%20Best%20Website%20Designing%20%7C%20Software%20Development%20%7C%20Digital%20Marketing%20%7C%20SEO%20%7C%20IT%20Company%20in%20Lucknow!5e0!3m2!1sen!2sin!4v1689920384619!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12"></div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <form class="">
+        
+         <div class="form-group ">
+           <label>Name</label>
+           <input type="text" name="" class="form-control" placeholder="Name">
+         </div> 
+         <div class="form-group mt-2 ">
+           <label>contact</label>
+           <input type="number" name="" class="form-control" placeholder="Phone">
+         </div> 
+         <div class="form-group mt-2">
+           <label>email</label>
+           <input type="email" name="" class="form-control" placeholder="Email">
+         </div> 
+         <div class="form-group mt-4">
+           <textarea class="form-control " cols="4" rows="6">Enter Your Message</textarea>
+         </div> 
+         <button class="btn btn-outline-success w-100 mt-2">Submit</button>
+   </form>
+        </div>
+      </div>
+    </section>
+  <a  href="#top"><div class="aa fa fa-arrow-up"></div></a>
+  <footer class="text-center">@Mark11</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

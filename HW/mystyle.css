@@ -1,0 +1,287 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.div1{position: relative;
+	width: 100%;
+	height: 100px;
+	background-image:url("C:/Users/uvsin/OneDrive/Desktop/assets softflew/Group 32771.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+nav{position: relative;
+	top: 0px;
+	width: 75%;
+	height: 50px;
+	float: right;
+	background-color: darkblue;
+}
+.h,.au,.cs,.ct,.lnow {
+  color: white;
+  text-decoration: none;
+}
+.div3{
+	width: 25%;
+	height: 50px;
+	color: red;
+	font-size: 30px;
+}
+.head_phone{
+	position: absolute;
+	top: 30px;
+	right: 50px;
+	float: right;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	height: 40px;
+	width: 15%;
+	border: 2px solid darkblue;
+	border-radius: 50px 50px 0px 50px;
+	color: darkblue;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	padding: 8px;
+}
+.p{
+	vertical-align: middle;
+	height: 20px;
+	padding: 8px;
+}
+.head_ing{position: absolute;
+	top: 20px;
+	font-size: 70px;
+	left: 30%;
+	color: darkblue;
+	font-family: PalatinoLinotype-Roman;
+	vertical-align: middle;
+}
+.q{
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	height: 70px;
+	width: 70px;
+}
+.r{
+	position: absolute;
+	top: 20px;
+	left: 345px;
+	height: 60px;
+	width: 60px;
+
+}
+.home{position: absolute;
+	top: 10px;
+	left: 100px;
+	font-size: 20px;
+	font-family: Poppins ;
+	color: white;
+}
+.about{
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	font-size: 20px;
+	font-family: Poppins ;
+	color: white;
+}
+.course{
+	position: absolute;
+	top: 10px;
+	left: 325px;
+	font-size: 20px;
+	font-family: Poppins ;
+	color: white;
+}
+.gif{position: absolute;
+	left: 390px;
+	height: 30px;
+	width: 30px;
+}
+.contact{
+	position: absolute;
+	top: 10px;
+	left: 460px;
+	font-size: 20px;
+	font-family: Poppins ;
+	color: white;
+}
+i{position: absolute;
+	top: 15px;
+	left: 600px;
+	background-color: darkblue;
+	color: white;
+	font-size: 21px
+}
+select{
+	background-color: darkblue;
+	color: white;
+	position: absolute;
+	top: 15px;
+	left: 700px;
+}
+.bi{
+	position: absolute;
+	top: 200px;
+	left: 31%;
+	height: 400px;
+	width: 550px;
+}
+.ltya{position: absolute;
+	font-size: 30px;
+	font-family: sans-serif;
+	right: 110px;
+	top: 200px;
+}
+p{position: absolute;
+	font-size: 12px;
+	font-family: sans-serif;
+	right: 210px;
+	top: 250px;
+}
+.goog,.fb{
+	height: 13px;
+	width: 13px;
+}
+.lg{position: absolute;
+	right: 280px;top: 290px;
+	border: 2px solid black;
+	padding: 15px;
+}
+.lg2{
+	position: absolute;
+	right: 90px;top: 290px;
+	border: 2px solid black;
+	padding: 15px;
+}
+h4{
+	position: absolute;
+	right: 250px;
+	top: 350px;
+}
+.gg,.fcb{
+	color: black;
+	text-decoration: none;
+}
+.usname{position: absolute;
+	right: 90px;
+	top: 400px;
+	padding: 10px;
+	background-color: lightgray;
+	border: 1px solid gray;
+	width: 345px;
+}
+.pass{position: absolute;
+	right: 90px;
+	top: 450px;
+	padding: 10px;
+	background-color: lightgray;
+	border: 1px solid gray;
+	width: 345px;
+}
+.rad{
+	position: absolute;
+	right: 365px;
+	top: 500px;
+	color: gray;
+}
+.for{
+	position: absolute;
+	right: 100px;
+	top: 500px;
+	color: gray;
+}
+.login{
+	position: absolute;
+	height: 20px;
+	width: 350px;
+	background-image: linear-gradient(to right, red , purple);
+	vertical-align: middle;
+	text-align: center;
+	top: 530px;
+	right: 97px;
+	padding: 7px;
+}
+.lgac{
+	color: white;
+	text-decoration: none;
+}
+.mem{position: absolute;
+	top: 580px;
+	right: 260px;
+	color: gray;
+	font-size: 14px;
+	text-decoration: none;
+}
+.regn{position: absolute;
+	top: 580px;
+	right: 180px;
+	font-size: 14px;
+	text-decoration: none;
+	
+
+}
+footer{position: absolute;
+	height: 30px;
+	width: 100%;
+	bottom:0px;
+	color: black;
+	text-align: center;
+}
+.info{
+	position: absolute;
+	background-color: darkblue;
+	color: white;
+	bottom:30px ;
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	text-align: center;
+}
+.foth{
+	font-size: 15px;
+	color: white;
+	position: absolute;
+	height: 20px;
+	width: 120px;
+	background-image: linear-gradient(to right, red , purple);
+	vertical-align: middle;
+	text-align: center;
+	bottom: 96px;
+	left: 44%;
+	padding: 7px;
+	border-radius: 0px 0px 10px 10px;
+	}
+.Tyt{position: absolute;
+		top: 250px;
+		font-size: 45px;
+		left: 50px;
+		font-family: MongolianBaiti;
+		color: darkblue;
+	}
+pre{
+	position: absolute;
+		top: 300px;
+		font-size: 45px;
+		left: 50px;
+		font-family: MongolianBaiti;
+}
+.stud{position: absolute;
+		top: 430px;
+		font-size: 13px;
+		left: 50px;
+		font-family: MongolianBaiti;
+}
+.lmore{position: absolute;
+	top: 500px;
+	left: 50px;
+	color:white;
+	width: 90px;
+	height: 25px;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	background-image: linear-gradient(to right, red , purple);
+}
